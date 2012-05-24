@@ -6,6 +6,7 @@ gem 'bson_ext',                 '~> 1.6.2'
 
 gem "ckeditor",                 '~> 3.7.1'
 gem 'mongoid-paperclip',        :require => 'mongoid_paperclip'
+# gem 'god'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
