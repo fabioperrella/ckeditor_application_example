@@ -1,6 +1,8 @@
 CkeditorTest::Application.routes.draw do
   mount Ckeditor::Engine => '/ckeditor'
 
+  root :to => 'home#show'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
