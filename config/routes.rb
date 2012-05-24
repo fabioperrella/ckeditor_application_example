@@ -1,4 +1,6 @@
 CkeditorTest::Application.routes.draw do
+  mount Ckeditor::Engine => '/ckeditor'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

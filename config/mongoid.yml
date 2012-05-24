@@ -1,0 +1,14 @@
+defaults: &defaults
+  host: localhost
+
+development:
+  <<: *defaults
+  database: ckeditor_development
+
+test:
+  <<: *defaults
+  database: ckeditor_test
+
+production:
+  <<: *defaults
+  database: ckeditor_development
